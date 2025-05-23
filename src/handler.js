@@ -43,7 +43,7 @@ const getAllNotesHandler = (request, h) => {
     status: "success",
     data: { notes },
   });
-  response.code(201);
+  response.code(200);
   return response;
 };
 
